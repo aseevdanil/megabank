@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="15G1108" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="MBMPartner" representedClassName="MBMPartner" syncable="YES">
+        <attribute name="logo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="points" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MBMPoint" inverseName="partner" inverseEntity="MBMPoint" syncable="YES"/>
+    </entity>
+    <entity name="MBMPoint" representedClassName="MBMPoint" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="locationLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="schedule" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MBMPartner" inverseName="points" inverseEntity="MBMPartner" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MBMPartner" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="MBMPoint" positionX="-63" positionY="9" width="128" height="120"/>
+    </elements>
+</model>

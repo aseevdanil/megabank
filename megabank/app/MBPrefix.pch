@@ -1,0 +1,37 @@
+//
+//  MBPrefix.pch
+//  megabank
+//
+//  Created by da on 03.12.16.
+//  Copyright © 2016 Aseev Danil. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+
+
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <MapKit/MapKit.h>
+
+#import "DAKit.h"
+
+
+#import "MBMega.h"
+#import "MBModel.h"
+#import "MBApp.h"
+#import "MBService.h"
+
+
+#import "UI+MB.h"
+
+
+#endif
