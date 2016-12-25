@@ -31,6 +31,8 @@
 		03A454BF1E1002B9003CEED7 /* DAMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454BC1E1002B9003CEED7 /* DAMainController.m */; };
 		03A454C01E1002B9003CEED7 /* DAWireframeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454BE1E1002B9003CEED7 /* DAWireframeController.m */; };
 		03A454C31E1002C5003CEED7 /* DAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454C21E1002C5003CEED7 /* DAMapViewController.m */; };
+		03A454C61E100395003CEED7 /* DAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A454C41E100395003CEED7 /* DAKit.framework */; };
+		03A454C71E100395003CEED7 /* DAUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A454C51E100395003CEED7 /* DAUI.framework */; };
 		03D847B11DF04E4200F579F3 /* MBWireframeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B01DF04E4200F579F3 /* MBWireframeController.m */; };
 		03D847B41DF04F2700F579F3 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B31DF04F2700F579F3 /* MBViewController.m */; };
 		03D847B81DF04FD700F579F3 /* MBBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B71DF04FD700F579F3 /* MBBackgroundView.m */; };
@@ -108,6 +110,8 @@
 		03A454BE1E1002B9003CEED7 /* DAWireframeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAWireframeController.m; sourceTree = "<group>"; };
 		03A454C11E1002C5003CEED7 /* DAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMapViewController.h; sourceTree = "<group>"; };
 		03A454C21E1002C5003CEED7 /* DAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMapViewController.m; sourceTree = "<group>"; };
+		03A454C41E100395003CEED7 /* DAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAKit.framework; path = Carthage/Build/iOS/DAKit.framework; sourceTree = "<group>"; };
+		03A454C51E100395003CEED7 /* DAUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAUI.framework; path = Carthage/Build/iOS/DAUI.framework; sourceTree = "<group>"; };
 		03D847AF1DF04E4200F579F3 /* MBWireframeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWireframeController.h; sourceTree = "<group>"; };
 		03D847B01DF04E4200F579F3 /* MBWireframeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBWireframeController.m; sourceTree = "<group>"; };
 		03D847B21DF04F2700F579F3 /* MBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03D847D51DF068EF00F579F3 /* CoreLocation.framework in Frameworks */,
+				03A454C61E100395003CEED7 /* DAKit.framework in Frameworks */,
+				03A454C71E100395003CEED7 /* DAUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +417,8 @@
 		03D847D31DF068EF00F579F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03A454C41E100395003CEED7 /* DAKit.framework */,
+				03A454C51E100395003CEED7 /* DAUI.framework */,
 				03D847D41DF068EF00F579F3 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
@@ -492,6 +500,7 @@
 				0342EAB11DEF15C500919CD6 /* Sources */,
 				0342EAB21DEF15C500919CD6 /* Frameworks */,
 				0342EAB31DEF15C500919CD6 /* Resources */,
+				03A454C81E100427003CEED7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -547,6 +556,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A454C81E100427003CEED7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/DAKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/DAUI.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0342EAB11DEF15C500919CD6 /* Sources */ = {
@@ -703,6 +730,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = ECUAX8UQ8J;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = megabank/app/MBPrefix.pch;
 				INFOPLIST_FILE = megabank/app/MBInfo.plist;
@@ -719,6 +750,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = ECUAX8UQ8J;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREFIX_HEADER = megabank/app/MBPrefix.pch;
 				INFOPLIST_FILE = megabank/app/MBInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,0 +1,6 @@
+framework module DAUI {
+  umbrella header "DAUI.h"
+
+  export *
+  module * { export * }
+}
