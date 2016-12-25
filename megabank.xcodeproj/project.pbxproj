@@ -11,12 +11,6 @@
 		0342EAE51DEF172800919CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342EAD71DEF172800919CD6 /* main.m */; };
 		0342EAE61DEF172800919CD6 /* megabank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0342EADA1DEF172800919CD6 /* megabank.xcdatamodeld */; };
 		0342EAE71DEF172800919CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0342EADD1DEF172800919CD6 /* Assets.xcassets */; };
-		0342EB151DEF210A00919CD6 /* DAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342EB0F1DEF210A00919CD6 /* DAViewController.m */; };
-		0342EB161DEF210A00919CD6 /* UIViewController+DA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342EB141DEF210A00919CD6 /* UIViewController+DA.m */; };
-		0342EB1A1DEF229600919CD6 /* DADebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342EB191DEF229600919CD6 /* DADebug.m */; };
-		0342EB1D1DF0462200919CD6 /* DAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342EB1C1DF0462200919CD6 /* DAMapViewController.m */; };
-		0342EB201DF0484900919CD6 /* DAMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342EB1F1DF0484900919CD6 /* DAMainController.m */; };
-		037CC5851DEF46A600DB03C4 /* DAWireframeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CC5841DEF46A600DB03C4 /* DAWireframeController.m */; };
 		037CC5881DF0982000DB03C4 /* MBConnectService.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CC5871DF0982000DB03C4 /* MBConnectService.m */; };
 		037CC58B1DF0992200DB03C4 /* MBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CC58A1DF0992200DB03C4 /* MBObject.m */; };
 		037CC58E1DF099A800DB03C4 /* MBAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CC58D1DF099A800DB03C4 /* MBAPI.m */; };
@@ -34,6 +28,9 @@
 		037CC5BE1DF410C700DB03C4 /* MBMapControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CC5BD1DF410C700DB03C4 /* MBMapControlsView.m */; };
 		037CC5C11DF4110200DB03C4 /* MBMapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CC5C01DF4110200DB03C4 /* MBMapButton.m */; };
 		037CC5C31DF44CCE00DB03C4 /* launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037CC5C21DF44CCE00DB03C4 /* launch.xib */; };
+		03A454BF1E1002B9003CEED7 /* DAMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454BC1E1002B9003CEED7 /* DAMainController.m */; };
+		03A454C01E1002B9003CEED7 /* DAWireframeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454BE1E1002B9003CEED7 /* DAWireframeController.m */; };
+		03A454C31E1002C5003CEED7 /* DAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454C21E1002C5003CEED7 /* DAMapViewController.m */; };
 		03D847B11DF04E4200F579F3 /* MBWireframeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B01DF04E4200F579F3 /* MBWireframeController.m */; };
 		03D847B41DF04F2700F579F3 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B31DF04F2700F579F3 /* MBViewController.m */; };
 		03D847B81DF04FD700F579F3 /* MBBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B71DF04FD700F579F3 /* MBBackgroundView.m */; };
@@ -48,22 +45,16 @@
 		03D847DF1DF183B100F579F3 /* MBMPartner.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847DE1DF183B100F579F3 /* MBMPartner.m */; };
 		03D847E81DF188A600F579F3 /* NSManagedObject+MB.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847E71DF188A600F579F3 /* NSManagedObject+MB.m */; };
 		03D847EC1DF19E2600F579F3 /* MBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847EB1DF19E2600F579F3 /* MBImage.m */; };
-		03D847EF1DF1A0AA00F579F3 /* UIImage+Converting.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847EE1DF1A0AA00F579F3 /* UIImage+Converting.m */; };
 		03D847F21DF1A10000F579F3 /* UIImage+DA.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847F11DF1A10000F579F3 /* UIImage+DA.m */; };
-		03D847F71DF1A24700F579F3 /* CGImage+DA.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847F61DF1A24700F579F3 /* CGImage+DA.m */; };
 		03D848041DF1A46C00F579F3 /* MBDownloadSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847FB1DF1A46C00F579F3 /* MBDownloadSession.m */; };
 		03D848051DF1A46C00F579F3 /* MBDownloadSession+MBDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847FD1DF1A46C00F579F3 /* MBDownloadSession+MBDownloadOperation.m */; };
 		03D848061DF1A46C00F579F3 /* MBImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847FF1DF1A46C00F579F3 /* MBImageCache.m */; };
 		03D848071DF1A46C00F579F3 /* MBImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D848011DF1A46C00F579F3 /* MBImageOperation.m */; };
 		03D848081DF1A46C00F579F3 /* MBImagesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D848031DF1A46C00F579F3 /* MBImagesService.m */; };
-		03D8480B1DF1A4E300F579F3 /* UIScreen+DA.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8480A1DF1A4E300F579F3 /* UIScreen+DA.m */; };
-		03D8480E1DF1A78700F579F3 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8480D1DF1A78700F579F3 /* NSData+Hash.m */; };
-		03D848111DF1A79600F579F3 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D848101DF1A79600F579F3 /* NSString+Hash.m */; };
 		03D848141DF1BDF900F579F3 /* MBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D848131DF1BDF900F579F3 /* MBImageView.m */; };
 		03D848171DF1C19C00F579F3 /* MBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D848161DF1C19C00F579F3 /* MBView.m */; };
 		03D8481D1DF1C9F300F579F3 /* MBConglomerateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8481C1DF1C9F300F579F3 /* MBConglomerateView.m */; };
 		03D848201DF1CBB700F579F3 /* UIFont+MB.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8481F1DF1CBB700F579F3 /* UIFont+MB.m */; };
-		03D848231DF1CD3400F579F3 /* UIFont+DA.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D848221DF1CD3400F579F3 /* UIFont+DA.m */; };
 		03D848261DF1D04900F579F3 /* MBPointsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D848251DF1D04900F579F3 /* MBPointsView.m */; };
 		03D848291DF1D30100F579F3 /* UIImage+MB.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D848281DF1D30100F579F3 /* UIImage+MB.m */; };
 /* End PBXBuildFile section */
@@ -77,21 +68,7 @@
 		0342EADB1DEF172800919CD6 /* megabank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = megabank.xcdatamodel; sourceTree = "<group>"; };
 		0342EADD1DEF172800919CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0342EB001DEF1BE700919CD6 /* UI+MB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UI+MB.h"; sourceTree = "<group>"; };
-		0342EB0E1DEF210A00919CD6 /* DAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAViewController.h; sourceTree = "<group>"; };
-		0342EB0F1DEF210A00919CD6 /* DAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAViewController.m; sourceTree = "<group>"; };
-		0342EB101DEF210A00919CD6 /* DADef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADef.h; sourceTree = "<group>"; };
-		0342EB111DEF210A00919CD6 /* DAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKit.h; sourceTree = "<group>"; };
-		0342EB131DEF210A00919CD6 /* UIViewController+DA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DA.h"; sourceTree = "<group>"; };
-		0342EB141DEF210A00919CD6 /* UIViewController+DA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DA.m"; sourceTree = "<group>"; };
 		0342EB171DEF213E00919CD6 /* MBPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPrefix.pch; sourceTree = "<group>"; };
-		0342EB181DEF229600919CD6 /* DADebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADebug.h; sourceTree = "<group>"; };
-		0342EB191DEF229600919CD6 /* DADebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADebug.m; sourceTree = "<group>"; };
-		0342EB1B1DF0462200919CD6 /* DAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMapViewController.h; sourceTree = "<group>"; };
-		0342EB1C1DF0462200919CD6 /* DAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMapViewController.m; sourceTree = "<group>"; };
-		0342EB1E1DF0484900919CD6 /* DAMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMainController.h; sourceTree = "<group>"; };
-		0342EB1F1DF0484900919CD6 /* DAMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMainController.m; sourceTree = "<group>"; };
-		037CC5831DEF46A600DB03C4 /* DAWireframeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAWireframeController.h; sourceTree = "<group>"; };
-		037CC5841DEF46A600DB03C4 /* DAWireframeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAWireframeController.m; sourceTree = "<group>"; };
 		037CC5861DF0982000DB03C4 /* MBConnectService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBConnectService.h; sourceTree = "<group>"; };
 		037CC5871DF0982000DB03C4 /* MBConnectService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBConnectService.m; sourceTree = "<group>"; };
 		037CC5891DF0992200DB03C4 /* MBObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBObject.h; sourceTree = "<group>"; };
@@ -107,13 +84,11 @@
 		037CC59A1DF1F47100DB03C4 /* MBMPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMPoint.m; sourceTree = "<group>"; };
 		037CC59D1DF1FBF700DB03C4 /* MBPointsLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPointsLoader.h; sourceTree = "<group>"; };
 		037CC59E1DF1FBF700DB03C4 /* MBPointsLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPointsLoader.m; sourceTree = "<group>"; };
-		037CC5A01DF1FF1A00DB03C4 /* CLLocation+DA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLLocation+DA.h"; sourceTree = "<group>"; };
 		037CC5A21DF2B0BE00DB03C4 /* MBPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPoints.m; sourceTree = "<group>"; };
 		037CC5A41DF2F36F00DB03C4 /* MBPointsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPointsModel.h; sourceTree = "<group>"; };
 		037CC5A51DF2F36F00DB03C4 /* MBPointsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPointsModel.m; sourceTree = "<group>"; };
 		037CC5A71DF2FD1000DB03C4 /* MBRegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRegionViewController.h; sourceTree = "<group>"; };
 		037CC5A81DF2FD1000DB03C4 /* MBRegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRegionViewController.m; sourceTree = "<group>"; };
-		037CC5AD1DF329DD00DB03C4 /* MKGeometry+DA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKGeometry+DA.h"; sourceTree = "<group>"; };
 		037CC5AE1DF3336500DB03C4 /* MBPointsPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPointsPanel.h; sourceTree = "<group>"; };
 		037CC5AF1DF3336500DB03C4 /* MBPointsPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPointsPanel.m; sourceTree = "<group>"; };
 		037CC5B11DF3412800DB03C4 /* MBPointsPanelPointViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPointsPanelPointViewCell.h; sourceTree = "<group>"; };
@@ -127,6 +102,12 @@
 		037CC5BF1DF4110200DB03C4 /* MBMapButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMapButton.h; sourceTree = "<group>"; };
 		037CC5C01DF4110200DB03C4 /* MBMapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMapButton.m; sourceTree = "<group>"; };
 		037CC5C21DF44CCE00DB03C4 /* launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = launch.xib; sourceTree = "<group>"; };
+		03A454BB1E1002B9003CEED7 /* DAMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMainController.h; sourceTree = "<group>"; };
+		03A454BC1E1002B9003CEED7 /* DAMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMainController.m; sourceTree = "<group>"; };
+		03A454BD1E1002B9003CEED7 /* DAWireframeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAWireframeController.h; sourceTree = "<group>"; };
+		03A454BE1E1002B9003CEED7 /* DAWireframeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAWireframeController.m; sourceTree = "<group>"; };
+		03A454C11E1002C5003CEED7 /* DAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMapViewController.h; sourceTree = "<group>"; };
+		03A454C21E1002C5003CEED7 /* DAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMapViewController.m; sourceTree = "<group>"; };
 		03D847AF1DF04E4200F579F3 /* MBWireframeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWireframeController.h; sourceTree = "<group>"; };
 		03D847B01DF04E4200F579F3 /* MBWireframeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBWireframeController.m; sourceTree = "<group>"; };
 		03D847B21DF04F2700F579F3 /* MBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
@@ -158,17 +139,10 @@
 		03D847E01DF183D000F579F3 /* MBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBModel.h; sourceTree = "<group>"; };
 		03D847E61DF188A600F579F3 /* NSManagedObject+MB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MB.h"; sourceTree = "<group>"; };
 		03D847E71DF188A600F579F3 /* NSManagedObject+MB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MB.m"; sourceTree = "<group>"; };
-		03D847E91DF18A6B00F579F3 /* NSApplicationDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSApplicationDirectory.h; sourceTree = "<group>"; };
 		03D847EA1DF19E2600F579F3 /* MBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBImage.h; sourceTree = "<group>"; };
 		03D847EB1DF19E2600F579F3 /* MBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBImage.m; sourceTree = "<group>"; };
-		03D847ED1DF1A0AA00F579F3 /* UIImage+Converting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Converting.h"; sourceTree = "<group>"; };
-		03D847EE1DF1A0AA00F579F3 /* UIImage+Converting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Converting.m"; sourceTree = "<group>"; };
 		03D847F01DF1A10000F579F3 /* UIImage+DA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DA.h"; sourceTree = "<group>"; };
 		03D847F11DF1A10000F579F3 /* UIImage+DA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DA.m"; sourceTree = "<group>"; };
-		03D847F41DF1A18D00F579F3 /* CGGeometry+DA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+DA.h"; sourceTree = "<group>"; };
-		03D847F51DF1A24700F579F3 /* CGImage+DA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImage+DA.h"; sourceTree = "<group>"; };
-		03D847F61DF1A24700F579F3 /* CGImage+DA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImage+DA.m"; sourceTree = "<group>"; };
-		03D847F81DF1A3BB00F579F3 /* DAMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAMath.h; sourceTree = "<group>"; };
 		03D847FA1DF1A46C00F579F3 /* MBDownloadSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDownloadSession.h; sourceTree = "<group>"; };
 		03D847FB1DF1A46C00F579F3 /* MBDownloadSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDownloadSession.m; sourceTree = "<group>"; };
 		03D847FC1DF1A46C00F579F3 /* MBDownloadSession+MBDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBDownloadSession+MBDownloadOperation.h"; sourceTree = "<group>"; };
@@ -179,12 +153,6 @@
 		03D848011DF1A46C00F579F3 /* MBImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBImageOperation.m; sourceTree = "<group>"; };
 		03D848021DF1A46C00F579F3 /* MBImagesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBImagesService.h; sourceTree = "<group>"; };
 		03D848031DF1A46C00F579F3 /* MBImagesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBImagesService.m; sourceTree = "<group>"; };
-		03D848091DF1A4E300F579F3 /* UIScreen+DA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+DA.h"; sourceTree = "<group>"; };
-		03D8480A1DF1A4E300F579F3 /* UIScreen+DA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+DA.m"; sourceTree = "<group>"; };
-		03D8480C1DF1A78700F579F3 /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
-		03D8480D1DF1A78700F579F3 /* NSData+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
-		03D8480F1DF1A79600F579F3 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
-		03D848101DF1A79600F579F3 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 		03D848121DF1BDF900F579F3 /* MBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBImageView.h; sourceTree = "<group>"; };
 		03D848131DF1BDF900F579F3 /* MBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBImageView.m; sourceTree = "<group>"; };
 		03D848151DF1C19C00F579F3 /* MBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBView.h; sourceTree = "<group>"; };
@@ -193,8 +161,6 @@
 		03D8481C1DF1C9F300F579F3 /* MBConglomerateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBConglomerateView.m; sourceTree = "<group>"; };
 		03D8481E1DF1CBB700F579F3 /* UIFont+MB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MB.h"; sourceTree = "<group>"; };
 		03D8481F1DF1CBB700F579F3 /* UIFont+MB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MB.m"; sourceTree = "<group>"; };
-		03D848211DF1CD3400F579F3 /* UIFont+DA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DA.h"; sourceTree = "<group>"; };
-		03D848221DF1CD3400F579F3 /* UIFont+DA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DA.m"; sourceTree = "<group>"; };
 		03D848241DF1D04900F579F3 /* MBPointsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPointsView.h; sourceTree = "<group>"; };
 		03D848251DF1D04900F579F3 /* MBPointsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPointsView.m; sourceTree = "<group>"; };
 		03D848271DF1D30100F579F3 /* UIImage+MB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MB.h"; sourceTree = "<group>"; };
@@ -238,7 +204,6 @@
 				0342EAD91DEF172800919CD6 /* model */,
 				0342EAE21DEF172800919CD6 /* services */,
 				0342EAEB1DEF176700919CD6 /* ui */,
-				0342EB0C1DEF210A00919CD6 /* dakit */,
 				0342EADC1DEF172800919CD6 /* resources */,
 			);
 			path = megabank;
@@ -348,6 +313,10 @@
 			children = (
 				03D847AF1DF04E4200F579F3 /* MBWireframeController.h */,
 				03D847B01DF04E4200F579F3 /* MBWireframeController.m */,
+				03A454BD1E1002B9003CEED7 /* DAWireframeController.h */,
+				03A454BE1E1002B9003CEED7 /* DAWireframeController.m */,
+				03A454BB1E1002B9003CEED7 /* DAMainController.h */,
+				03A454BC1E1002B9003CEED7 /* DAMainController.m */,
 			);
 			path = containers;
 			sourceTree = "<group>";
@@ -358,64 +327,12 @@
 				03D847BC1DF050B100F579F3 /* UIViewController+MB.h */,
 				03D847B21DF04F2700F579F3 /* MBViewController.h */,
 				03D847B31DF04F2700F579F3 /* MBViewController.m */,
+				03A454C11E1002C5003CEED7 /* DAMapViewController.h */,
+				03A454C21E1002C5003CEED7 /* DAMapViewController.m */,
 				03D847C01DF052EF00F579F3 /* MBMapViewController.h */,
 				03D847C11DF052EF00F579F3 /* MBMapViewController.m */,
 			);
 			path = controllers;
-			sourceTree = "<group>";
-		};
-		0342EB0C1DEF210A00919CD6 /* dakit */ = {
-			isa = PBXGroup;
-			children = (
-				0342EB111DEF210A00919CD6 /* DAKit.h */,
-				0342EB101DEF210A00919CD6 /* DADef.h */,
-				03D847F81DF1A3BB00F579F3 /* DAMath.h */,
-				0342EB181DEF229600919CD6 /* DADebug.h */,
-				0342EB191DEF229600919CD6 /* DADebug.m */,
-				03D847E11DF184F500F579F3 /* ns+da */,
-				03D847F31DF1A17900F579F3 /* cg+da */,
-				0342EB121DEF210A00919CD6 /* ui+da */,
-				0342EB0D1DEF210A00919CD6 /* controllers */,
-				037CC5821DEF468400DB03C4 /* containers */,
-			);
-			path = dakit;
-			sourceTree = "<group>";
-		};
-		0342EB0D1DEF210A00919CD6 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0342EB0E1DEF210A00919CD6 /* DAViewController.h */,
-				0342EB0F1DEF210A00919CD6 /* DAViewController.m */,
-				0342EB1B1DF0462200919CD6 /* DAMapViewController.h */,
-				0342EB1C1DF0462200919CD6 /* DAMapViewController.m */,
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
-		0342EB121DEF210A00919CD6 /* ui+da */ = {
-			isa = PBXGroup;
-			children = (
-				03D847ED1DF1A0AA00F579F3 /* UIImage+Converting.h */,
-				03D847EE1DF1A0AA00F579F3 /* UIImage+Converting.m */,
-				03D848211DF1CD3400F579F3 /* UIFont+DA.h */,
-				03D848221DF1CD3400F579F3 /* UIFont+DA.m */,
-				03D848091DF1A4E300F579F3 /* UIScreen+DA.h */,
-				03D8480A1DF1A4E300F579F3 /* UIScreen+DA.m */,
-				0342EB131DEF210A00919CD6 /* UIViewController+DA.h */,
-				0342EB141DEF210A00919CD6 /* UIViewController+DA.m */,
-			);
-			path = "ui+da";
-			sourceTree = "<group>";
-		};
-		037CC5821DEF468400DB03C4 /* containers */ = {
-			isa = PBXGroup;
-			children = (
-				037CC5831DEF46A600DB03C4 /* DAWireframeController.h */,
-				037CC5841DEF46A600DB03C4 /* DAWireframeController.m */,
-				0342EB1E1DF0484900919CD6 /* DAMainController.h */,
-				0342EB1F1DF0484900919CD6 /* DAMainController.m */,
-			);
-			path = containers;
 			sourceTree = "<group>";
 		};
 		037CC59C1DF1F47500DB03C4 /* points */ = {
@@ -537,20 +454,6 @@
 			name = partner;
 			sourceTree = "<group>";
 		};
-		03D847E11DF184F500F579F3 /* ns+da */ = {
-			isa = PBXGroup;
-			children = (
-				037CC5A01DF1FF1A00DB03C4 /* CLLocation+DA.h */,
-				037CC5AD1DF329DD00DB03C4 /* MKGeometry+DA.h */,
-				03D8480C1DF1A78700F579F3 /* NSData+Hash.h */,
-				03D8480D1DF1A78700F579F3 /* NSData+Hash.m */,
-				03D8480F1DF1A79600F579F3 /* NSString+Hash.h */,
-				03D848101DF1A79600F579F3 /* NSString+Hash.m */,
-				03D847E91DF18A6B00F579F3 /* NSApplicationDirectory.h */,
-			);
-			path = "ns+da";
-			sourceTree = "<group>";
-		};
 		03D847E51DF1888A00F579F3 /* ns+mb */ = {
 			isa = PBXGroup;
 			children = (
@@ -560,16 +463,6 @@
 				03D847F11DF1A10000F579F3 /* UIImage+DA.m */,
 			);
 			name = "ns+mb";
-			sourceTree = "<group>";
-		};
-		03D847F31DF1A17900F579F3 /* cg+da */ = {
-			isa = PBXGroup;
-			children = (
-				03D847F41DF1A18D00F579F3 /* CGGeometry+DA.h */,
-				03D847F51DF1A24700F579F3 /* CGImage+DA.h */,
-				03D847F61DF1A24700F579F3 /* CGImage+DA.m */,
-			);
-			path = "cg+da";
 			sourceTree = "<group>";
 		};
 		03D847F91DF1A45D00F579F3 /* images */ = {
@@ -662,41 +555,34 @@
 			files = (
 				03D847F21DF1A10000F579F3 /* UIImage+DA.m in Sources */,
 				037CC5A61DF2F36F00DB03C4 /* MBPointsModel.m in Sources */,
-				03D847EF1DF1A0AA00F579F3 /* UIImage+Converting.m in Sources */,
 				03D848171DF1C19C00F579F3 /* MBView.m in Sources */,
 				037CC5911DF09E6D00DB03C4 /* MBConnectService+MBConnectOperation.m in Sources */,
 				03D848041DF1A46C00F579F3 /* MBDownloadSession.m in Sources */,
 				03D847C61DF0552D00F579F3 /* MBPointsViewController.m in Sources */,
-				0342EB201DF0484900919CD6 /* DAMainController.m in Sources */,
-				0342EB1A1DEF229600919CD6 /* DADebug.m in Sources */,
 				037CC5C11DF4110200DB03C4 /* MBMapButton.m in Sources */,
-				0342EB161DEF210A00919CD6 /* UIViewController+DA.m in Sources */,
-				0342EB1D1DF0462200919CD6 /* DAMapViewController.m in Sources */,
 				03D847D11DF065B600F579F3 /* MBError.m in Sources */,
 				037CC5BE1DF410C700DB03C4 /* MBMapControlsView.m in Sources */,
 				037CC5B31DF3412800DB03C4 /* MBPointsPanelPointViewCell.m in Sources */,
-				03D8480E1DF1A78700F579F3 /* NSData+Hash.m in Sources */,
 				0342EAE61DEF172800919CD6 /* megabank.xcdatamodeld in Sources */,
 				03D847B41DF04F2700F579F3 /* MBViewController.m in Sources */,
 				03D847CE1DF0608400F579F3 /* MBLocationService.m in Sources */,
 				03D847BB1DF0501800F579F3 /* UIColor+MB.m in Sources */,
-				03D847F71DF1A24700F579F3 /* CGImage+DA.m in Sources */,
 				03D8481D1DF1C9F300F579F3 /* MBConglomerateView.m in Sources */,
 				03D848201DF1CBB700F579F3 /* UIFont+MB.m in Sources */,
 				03D848261DF1D04900F579F3 /* MBPointsView.m in Sources */,
 				03D848061DF1A46C00F579F3 /* MBImageCache.m in Sources */,
 				037CC5941DF1F29900DB03C4 /* MBPointsController.m in Sources */,
 				03D847E81DF188A600F579F3 /* NSManagedObject+MB.m in Sources */,
-				0342EB151DEF210A00919CD6 /* DAViewController.m in Sources */,
 				037CC5B61DF3554E00DB03C4 /* UIAlertController+MBMPoint.m in Sources */,
 				03D847C21DF052EF00F579F3 /* MBMapViewController.m in Sources */,
 				03D847EC1DF19E2600F579F3 /* MBImage.m in Sources */,
 				037CC58E1DF099A800DB03C4 /* MBAPI.m in Sources */,
+				03A454BF1E1002B9003CEED7 /* DAMainController.m in Sources */,
+				03A454C01E1002B9003CEED7 /* DAWireframeController.m in Sources */,
 				03D847B81DF04FD700F579F3 /* MBBackgroundView.m in Sources */,
 				03D847DF1DF183B100F579F3 /* MBMPartner.m in Sources */,
 				037CC59F1DF1FBF700DB03C4 /* MBPointsLoader.m in Sources */,
 				03D847C91DF055C000F579F3 /* MBUserInterface.m in Sources */,
-				03D8480B1DF1A4E300F579F3 /* UIScreen+DA.m in Sources */,
 				03D848081DF1A46C00F579F3 /* MBImagesService.m in Sources */,
 				03D848141DF1BDF900F579F3 /* MBImageView.m in Sources */,
 				037CC5A91DF2FD1000DB03C4 /* MBRegionViewController.m in Sources */,
@@ -706,13 +592,11 @@
 				037CC5B91DF4091700DB03C4 /* MBPointsViewController+MBPointsPanel.m in Sources */,
 				037CC59B1DF1F47100DB03C4 /* MBMPoint.m in Sources */,
 				037CC5B01DF3336500DB03C4 /* MBPointsPanel.m in Sources */,
-				03D848111DF1A79600F579F3 /* NSString+Hash.m in Sources */,
-				03D848231DF1CD3400F579F3 /* UIFont+DA.m in Sources */,
-				037CC5851DEF46A600DB03C4 /* DAWireframeController.m in Sources */,
 				0342EAE31DEF172800919CD6 /* MBApp.m in Sources */,
 				037CC5A31DF2B0BE00DB03C4 /* MBPoints.m in Sources */,
 				03D847B11DF04E4200F579F3 /* MBWireframeController.m in Sources */,
 				03D847DB1DF17C1200F579F3 /* MBPartnersService.m in Sources */,
+				03A454C31E1002C5003CEED7 /* DAMapViewController.m in Sources */,
 				037CC58B1DF0992200DB03C4 /* MBObject.m in Sources */,
 				03D848291DF1D30100F579F3 /* UIImage+MB.m in Sources */,
 				03D848071DF1A46C00F579F3 /* MBImageOperation.m in Sources */,
