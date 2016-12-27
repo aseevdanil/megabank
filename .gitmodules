@@ -1,0 +1,6 @@
+[submodule "Carthage/Checkouts/dakit"]
+	path = Carthage/Checkouts/dakit
+	url = https://github.com/aseevdanil/dakit.git
+[submodule "Carthage/Checkouts/daui"]
+	path = Carthage/Checkouts/daui
+	url = https://github.com/aseevdanil/daui.git
