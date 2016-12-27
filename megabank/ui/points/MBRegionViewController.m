@@ -253,7 +253,7 @@ RegionMetric[] =
 		maximumRect.origin.x -= maximumRadius;
 		maximumRect.origin.y -= maximumRadius;
 		maximumRect.size.width = maximumRect.size.height = 2 * maximumRadius;
-		UIEdgeInsets anchorViewInsets = self.anchorViewInsets;
+		UIEdgeInsets anchorViewInsets = self.anchorInsets;
 		minimumRect = [self.mapView mapRectThatFits:minimumRect edgePadding:anchorViewInsets];
 		maximumRect = [self.mapView mapRectThatFits:maximumRect edgePadding:anchorViewInsets];
 		MKMapRect visibleRect = self.mapView.visibleMapRect;
@@ -311,7 +311,7 @@ RegionMetric[] =
 		rect.origin.y -= radius;
 		rect.size.width = rect.size.height = 2 * radius;
 	}
-	UIEdgeInsets anchorViewInsets = self.anchorViewInsets;
+	UIEdgeInsets anchorViewInsets = self.anchorInsets;
 	rect = [self.mapView mapRectThatFits:rect edgePadding:anchorViewInsets];
 	MKMapRect visibleRect = self.mapView.visibleMapRect;
 	if (!MKMapRectEqualToRect(rect, visibleRect))
@@ -347,7 +347,7 @@ RegionMetric[] =
 		maximumRect.origin.x -= maximumRadius;
 		maximumRect.origin.y -= maximumRadius;
 		maximumRect.size.width = maximumRect.size.height = 2 * maximumRadius;
-		UIEdgeInsets anchorViewInsets = self.anchorViewInsets;
+		UIEdgeInsets anchorViewInsets = self.anchorInsets;
 		minimumRect = [self.mapView mapRectThatFits:minimumRect edgePadding:anchorViewInsets];
 		maximumRect = [self.mapView mapRectThatFits:maximumRect edgePadding:anchorViewInsets];
 		MKMapRect visibleRect = self.mapView.visibleMapRect;

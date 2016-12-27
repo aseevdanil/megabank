@@ -18,7 +18,7 @@
 	for (NSUInteger i = 0; i < self.count; ++i)
 	{
 		id<MBObject> object = (id<MBObject>)[self objectAtIndex:i];
-		if (DA_EQUAL_STRINGS(objectId, object.objectId))
+		if (DA_COMPARE_STRINGS(objectId, object.objectId))
 			return i;
 	}
 	return NSNotFound;

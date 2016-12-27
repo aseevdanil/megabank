@@ -28,11 +28,10 @@
 		037CC5BE1DF410C700DB03C4 /* MBMapControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CC5BD1DF410C700DB03C4 /* MBMapControlsView.m */; };
 		037CC5C11DF4110200DB03C4 /* MBMapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CC5C01DF4110200DB03C4 /* MBMapButton.m */; };
 		037CC5C31DF44CCE00DB03C4 /* launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037CC5C21DF44CCE00DB03C4 /* launch.xib */; };
+		038A47991E12973E009E7FFA /* DAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A47971E12973E009E7FFA /* DAKit.framework */; };
+		038A479A1E12973E009E7FFA /* DAUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A47981E12973E009E7FFA /* DAUI.framework */; };
 		03A454BF1E1002B9003CEED7 /* DAMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454BC1E1002B9003CEED7 /* DAMainController.m */; };
 		03A454C01E1002B9003CEED7 /* DAWireframeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454BE1E1002B9003CEED7 /* DAWireframeController.m */; };
-		03A454C31E1002C5003CEED7 /* DAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A454C21E1002C5003CEED7 /* DAMapViewController.m */; };
-		03A454C61E100395003CEED7 /* DAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A454C41E100395003CEED7 /* DAKit.framework */; };
-		03A454C71E100395003CEED7 /* DAUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A454C51E100395003CEED7 /* DAUI.framework */; };
 		03D847B11DF04E4200F579F3 /* MBWireframeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B01DF04E4200F579F3 /* MBWireframeController.m */; };
 		03D847B41DF04F2700F579F3 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B31DF04F2700F579F3 /* MBViewController.m */; };
 		03D847B81DF04FD700F579F3 /* MBBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D847B71DF04FD700F579F3 /* MBBackgroundView.m */; };
@@ -104,14 +103,12 @@
 		037CC5BF1DF4110200DB03C4 /* MBMapButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMapButton.h; sourceTree = "<group>"; };
 		037CC5C01DF4110200DB03C4 /* MBMapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMapButton.m; sourceTree = "<group>"; };
 		037CC5C21DF44CCE00DB03C4 /* launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = launch.xib; sourceTree = "<group>"; };
+		038A47971E12973E009E7FFA /* DAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAKit.framework; path = Carthage/Build/iOS/DAKit.framework; sourceTree = "<group>"; };
+		038A47981E12973E009E7FFA /* DAUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAUI.framework; path = Carthage/Build/iOS/DAUI.framework; sourceTree = "<group>"; };
 		03A454BB1E1002B9003CEED7 /* DAMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMainController.h; sourceTree = "<group>"; };
 		03A454BC1E1002B9003CEED7 /* DAMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMainController.m; sourceTree = "<group>"; };
 		03A454BD1E1002B9003CEED7 /* DAWireframeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAWireframeController.h; sourceTree = "<group>"; };
 		03A454BE1E1002B9003CEED7 /* DAWireframeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAWireframeController.m; sourceTree = "<group>"; };
-		03A454C11E1002C5003CEED7 /* DAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMapViewController.h; sourceTree = "<group>"; };
-		03A454C21E1002C5003CEED7 /* DAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMapViewController.m; sourceTree = "<group>"; };
-		03A454C41E100395003CEED7 /* DAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAKit.framework; path = Carthage/Build/iOS/DAKit.framework; sourceTree = "<group>"; };
-		03A454C51E100395003CEED7 /* DAUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAUI.framework; path = Carthage/Build/iOS/DAUI.framework; sourceTree = "<group>"; };
 		03D847AF1DF04E4200F579F3 /* MBWireframeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWireframeController.h; sourceTree = "<group>"; };
 		03D847B01DF04E4200F579F3 /* MBWireframeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBWireframeController.m; sourceTree = "<group>"; };
 		03D847B21DF04F2700F579F3 /* MBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
@@ -176,9 +173,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038A47991E12973E009E7FFA /* DAKit.framework in Frameworks */,
+				038A479A1E12973E009E7FFA /* DAUI.framework in Frameworks */,
 				03D847D51DF068EF00F579F3 /* CoreLocation.framework in Frameworks */,
-				03A454C61E100395003CEED7 /* DAKit.framework in Frameworks */,
-				03A454C71E100395003CEED7 /* DAUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +330,6 @@
 				03D847BC1DF050B100F579F3 /* UIViewController+MB.h */,
 				03D847B21DF04F2700F579F3 /* MBViewController.h */,
 				03D847B31DF04F2700F579F3 /* MBViewController.m */,
-				03A454C11E1002C5003CEED7 /* DAMapViewController.h */,
-				03A454C21E1002C5003CEED7 /* DAMapViewController.m */,
 				03D847C01DF052EF00F579F3 /* MBMapViewController.h */,
 				03D847C11DF052EF00F579F3 /* MBMapViewController.m */,
 			);
@@ -417,8 +412,8 @@
 		03D847D31DF068EF00F579F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03A454C41E100395003CEED7 /* DAKit.framework */,
-				03A454C51E100395003CEED7 /* DAUI.framework */,
+				038A47971E12973E009E7FFA /* DAKit.framework */,
+				038A47981E12973E009E7FFA /* DAUI.framework */,
 				03D847D41DF068EF00F579F3 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
@@ -623,7 +618,6 @@
 				037CC5A31DF2B0BE00DB03C4 /* MBPoints.m in Sources */,
 				03D847B11DF04E4200F579F3 /* MBWireframeController.m in Sources */,
 				03D847DB1DF17C1200F579F3 /* MBPartnersService.m in Sources */,
-				03A454C31E1002C5003CEED7 /* DAMapViewController.m in Sources */,
 				037CC58B1DF0992200DB03C4 /* MBObject.m in Sources */,
 				03D848291DF1D30100F579F3 /* UIImage+MB.m in Sources */,
 				03D848071DF1A46C00F579F3 /* MBImageOperation.m in Sources */,
@@ -728,6 +722,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ECUAX8UQ8J;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -740,6 +735,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmiphonedev.taxilist.megabank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -748,6 +744,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ECUAX8UQ8J;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -759,6 +756,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmiphonedev.taxilist.megabank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};

@@ -1,1 +1,2 @@
-github "aseevdanil/da" "master"
+github "aseevdanil/dakit" ~>1.1
+github "aseevdanil/daui" "megabank"
